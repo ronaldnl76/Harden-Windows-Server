@@ -3,14 +3,33 @@ Hardening GPO's Windows Server 2025
 
 There is a new way of Hardening Windows Server 2025. Via OSConfig: [osconfig-how-to-configure-security-baselines]https://learn.microsoft.com/en-us/windows-server/security/osconfig/osconfig-how-to-configure-security-baselines?tabs=configure
 
-Because we don't want to use OSConfig yet I converted the Security Baseline to GPO's.
+Because we don't want to use OSConfig yet I converted the Security Baseline to GPO's!
 
 I used the latest OSConfig from Microsoft (november 2024) - [SecurityBaseline_WindowsServer_2025-2411]https://github.com/microsoft/osconfig/blob/main/security/SecurityBaseline_WindowsServer_2025-2411.csv
 
-## GPO's inside this Repository:
-- **MSFT Windows Server 2025 - Member Server** - Microsoft Security Baseline Windows Server 2025 - Member Server
+## How did I do this?
+I used the Microsoft Security Baseline 2022 Member Server from the [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319) as a starter and changed and added all values from the OSConfig .csv file. I have added an .ADMX and .ADML file for the settings that I could nog find. (zzz.ADMX and zzz.ADML)
 
-- **MSFT Windows Server 2025 - Domain Controller** - Microsoft Security Baseline Windows Server 2025 - Domain Controller (NEEDS TO BE BUILT)
+
+
+There is an new .csv file added with all settings from the CSV file categorized into:
+- NEW - these are new settings compared to those of the Security Baseline of Windows Server 2022
+
+## Still some work to do:
+- There are 2 items that still needs some attention
+AuditBackupAndRestorePrivilege registry key differs from .csv file.
+RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
+- Remove Security Baseline Server 2022 from this GPO (so it only contains the settings Baseline Server 2025 settings)
+- Create Security Baseline Server 2025 - Domain Controller GPO 
+- 
+
+
+
+## Files inside this Repository:
+- **MSFT Windows Server 2025 - Member Server** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
+
+- **MSFT Windows Server 2025 - Domain Controller** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
+(NEEDS TO BE DONE)
 
 
 ## Liability

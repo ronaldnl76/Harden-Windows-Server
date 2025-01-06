@@ -8,22 +8,10 @@ Because we don't want to use OSConfig yet I converted the Security Baseline to G
 I used the latest OSConfig from Microsoft (november 2024) - [SecurityBaseline_WindowsServer_2025 24-11]https://github.com/microsoft/osconfig/blob/main/security/SecurityBaseline_WindowsServer_2025-2411.csv
 
 ## GPO's inside this Repository:
-- **MSFT Windows Server 2025 - Member Server** - This script will generate random password(s) of an given length 
-and uses a Dutch open Wordlist to generate those passwords so that they are Safe and human readable.
-The wordlist is from OpenTaal. For English you could add your own wordlist E.g. [dwyl](https://github.com/dwyl/english-words)
+- **MSFT Windows Server 2025 - Member Server** - Microsoft Security Baseline Windows Server 2025 - Member Server
 
-- **MSFT Windows Server 2025 - Domain Controller** - Microsoft Security Baseline Windows Server 2025 - Domain Controller
+- **MSFT Windows Server 2025 - Domain Controller** - Microsoft Security Baseline Windows Server 2025 - Domain Controller (NEEDS TO BE BUILT)
 
-
-## Execution
-
-Enable execution of PowerShell scripts:
-
-    PS> Set-ExecutionPolicy Unrestricted -Scope CurrentUser
-
-Unblock PowerShell scripts and modules within this directory:
-
-    PS> ls -Recurse *.ps*1 | Unblock-File
 
 ## Liability
 
@@ -31,7 +19,7 @@ Unblock PowerShell scripts and modules within this directory:
 
 ## Contribute
 
-I would be happy to extend the collection of scripts. Just open an issue or
+I would be happy to extend the collection of GPO's. Just open an issue or
 send me a pull request.
 
 ### Important Websites:
@@ -40,12 +28,23 @@ send me a pull request.
 
 ## License
 
-    "THE BEER-WARE LICENSE" (Revision 42):
+MIT License
+Copyright (c) 2023-Present - Ronald Rijerkerk- (ronaldnl76)
 
-    As long as you retain this notice you can do whatever you want with this
-    stuff. If we meet someday, and you think this stuff is worth it, you can
-    buy us a beer in return.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-    This project is distributed in the hope that it will be useful, but WITHOUT
-    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-    FITNESS FOR A PARTICULAR PURPOSE.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

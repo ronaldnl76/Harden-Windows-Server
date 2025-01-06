@@ -9,6 +9,10 @@ I used the latest OSConfig from Microsoft (november 2024) - [SecurityBaseline_Wi
 
 ## How did I do this?
 I used the Microsoft Security Baseline 2022 Member Server from the [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319) as a starter and changed and added all values from the OSConfig .csv file. I have added an .ADMX and .ADML file for the settings that I could nog find. (zzz.ADMX and zzz.ADML)
+If you use the MS Baseline 2022 policies you should also import the templates inside the /zip file! 
+- admpwd.admx (and .adml)
+- MSS-legacy.admx (and .adml)
+- SecGuide.admx (and .adml)
 
 There is an new .csv file added with all settings from the CSV file categorized into:
 - NEW - these are new settings compared to those of the Security Baseline of Windows Server 2022
@@ -30,11 +34,10 @@ RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
 
 
 ## Files inside this Repository:
-- **MSFT Windows Server 2025 - Member Server** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
-
-- **MSFT Windows Server 2025 - Domain Controller** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
-(NEEDS TO BE DONE)
-
+- zzz.admx and zzz.adml - Extra policies (which could not be found in the default set
+FOLDER: **Windows Server-2025-Security-Baseline-v1.0\GPOs
+- **{E75ECD67-23CE-45EE-BDD0-09B236F442E8}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
+- (NEEDS TO BE DONE) - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
 
 ## Liability
 

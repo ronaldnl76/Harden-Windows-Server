@@ -48,7 +48,7 @@ FOLDER: **Windows Server-2025-Security-Baseline-v1.0\GPOs
 I would be happy to extend the collection of GPO's. Just open an issue or
 send me a pull request.
 
-And If you like you can always buy me a coffee :) https://buymeacoffee.com/ronaldnl76
+And If you like you can always [buy me a coffee](https://buymeacoffee.com/ronaldnl76) :) 
 
 ### Important Websites:
 - [osconfig-how-to-configure-security-baselines](https://learn.microsoft.com/en-us/windows-server/security/osconfig/osconfig-how-to-configure-security-baselines?tabs=configure)

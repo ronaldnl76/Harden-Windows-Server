@@ -28,10 +28,11 @@ There is an new .csv file added with all settings from the CSV file categorized 
 - There are 2 items that still needs some attention
 AuditBackupAndRestorePrivilege registry key differs from .csv file.
 RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
-- Remove Security Baseline Server 2022 from this GPO (so it only contains the settings Baseline Server 2025 settings)
 - Create Security Baseline Server 2025 - Domain Controller GPO 
 - NEW-CHECKSID - In the .Baseline of 2025 there are "strange" sids which still should be solved
 
+## Work Done
+- Remove Security Baseline Server 2022 from this GPO (so it only contains the settings Baseline Server 2025 settings) :ok_hand:
 
 ## Files inside this Repository:
 FOLDER: **ROOT**

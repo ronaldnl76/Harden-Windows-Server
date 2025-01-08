@@ -1,0 +1,77 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+
+    <displayName>Windows 2025 Security Baseline</displayName>
+    <description>Windows 2025 Security Baseline</description>
+    <resources>
+    
+		<stringTable>
+		    <string id="SUPPORTED_preWin81_2012R2">Only Windows 7, Windows Server 2008, Windows Server 2008R2, Windows Server 2012</string>
+			<string id="SUPPORTED_WindowsServer2008AndNewer">Windows Server 2008 and newer</string>
+
+			<string id="cat_zzz">Windows 2025 Security Baseline</string>
+			
+			<string id="DetectRDPPortChange">Detect RDP Port Change</string>
+			<string id="DetectRDPPortChangee">This policy checks if the RDP port has been changed from the default value of 3389.</string>
+			
+			<string id="OverrideMinimumEnabledDTLSVersionClient">Override Minimum Enabled DTLS Version Client</string>
+			<string id="OverrideMinimumEnabledDTLSVersionClient1">Override minimal enabled DTLS version for Client role. Last write wins.</string>
+			<string id="OverrideMinimumEnabledDTLSVersionServer">Override Minimum Enabled DTLS Version Server</string>
+			<string id="OverrideMinimumEnabledDTLSVersionServer1">Override minimal enabled DTLS version for Server role. Last write wins.</string>
+			<string id="OverrideMinimumEnabledTLSVersionClient">Override Minimum Enabled TLS Version Client</string>
+			<string id="OverrideMinimumEnabledTLSVersionClient1">Override minimal enabled TLS version for Client role. Last write wins.</string>
+			<string id="OverrideMinimumEnabledTLSVersionServer">Override Minimum Enabled TLS Version Server</string>
+			<string id="OverrideMinimumEnabledTLSVersionServer1">Override minimal enabled TLS version for Server role. Last write wins.</string>
+			
+			<string id="WinVerityTrustSignatureValidationVulnerabilityMitigation1">WinVerifyTrust Signature Validation vulnerability Mitigation 1</string>
+			<string id="WinVerityTrustSignatureValidationVulnerabilityMitigation1e">WinVerifyTrust Signature Validation vulnerability Mitigation 1</string>
+			<string id="WinVerityTrustSignatureValidationVulnerabilityMitigation2">WinVerifyTrust Signature Validation vulnerability Mitigation 2</string>
+			<string id="WinVerityTrustSignatureValidationVulnerabilityMitigation2e">WinVerifyTrust Signature Validation vulnerability Mitigation 2</string>
+			
+			<string id="AfdDisableAddressSharing">System Services Afd DisableAddressSharing</string>
+			<string id="AfdDisableAddressSharinge">System Services Afd DisableAddressSharing</string>
+			
+			<string id="DisableNameResolutionUsingNetbios">Disabling Name Resolution using NETBIOS</string>
+			<string id="DisableNameResolutionUsingNetbiose">Disabling Name Resolution using NETBIOS</string>
+			
+			<string id="DisableSMBv1Client">Disable SMB v1 client (remove dependency on LanmanWorkstation)</string>
+			<string id="DisableSMBv1Cliente">Disable SMB v1 client (remove dependency on LanmanWorkstation)</string>
+			
+			<string id="EnableAuthRateLimiterTimeout">Enable authentication rate limiter (Delay Timeout)</string>
+			<string id="EnableAuthRateLimiterTimeoute">Enable authentication rate limiter (Delay Timeout)</string>
+			
+			<string id="DeviceGuardRequireMicrosoftSignedBootChain">Secured-Core Require MicrosoftSignedBootChain</string>
+			<string id="DeviceGuardRequireMicrosoftSignedBootChaine">Secured-Core Require MicrosoftSignedBootChain</string>
+			
+			<string id="DeviceGuardLsaCfgFlags">Turn on CredentialGuard</string>
+			<string id="DeviceGuardLsaCfgFlagse">Turn on CredentialGuard</string>
+			
+			<string id="CryptographyForceStrongKeyProtection">Users must be required to enter a password to access private keys stored on the computer.</string>
+			<string id="CryptographyForceStrongKeyProtectione">Users must be required to enter a password to access private keys stored on the computer.</string>
+						
+		</stringTable>
+		
+		<presentationTable>
+			<presentation id="PortNumber">
+				<decimalTextBox refId="PortNumber" spinStep="1" defaultValue="3389">RDP Port Number</decimalTextBox>
+			</presentation>
+			
+			<presentation id="InvalidAuthenticationDelayTimeInMs">
+				<decimalTextBox refId="InvalidAuthenticationDelayTimeInMs" spinStep="1" defaultValue="2000">Delay Timeout in Ms</decimalTextBox>
+			</presentation>
+			
+			<presentation id="Version">
+				<textBox refId="Version">
+					<label>Fill in Version</label>
+				</textBox>
+			</presentation>
+			<presentation id="DisableSMBv1Client">
+			    <text>Type the SMBv1 protocols (one protocol name per line)</text>
+				<multiTextBox refId="DisableSMBv1ClientList">Fill in SMB:</multiTextBox>
+		    </presentation>
+			
+			
+		</presentationTable>
+		
+	</resources>
+	
+</policyDefinitionResources>

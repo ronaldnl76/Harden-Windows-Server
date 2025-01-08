@@ -1,8 +1,6 @@
 # Harden-Windows-Server
 Hardening GPO's Windows Server 2025
 
-## NEW POLICIES ARE ON IT's way... there was one wrong setting so I should export the new ones again in few days.
-
 There is a new way of Hardening Windows Server 2025. Via OSConfig: [osconfig-how-to-configure-security-baselines](https://learn.microsoft.com/en-us/windows-server/security/osconfig/osconfig-how-to-configure-security-baselines?tabs=configure)
 
 Because not everybody is willing to use the new way via OSConfig to configure those settings yet I converted the Security Baseline to GPO's! 
@@ -44,8 +42,8 @@ FOLDER: **Windows Server-2025-Security-Baseline-v1.0\Templates**
 - zzz.admx and zzz.adml - Extra policies (which could not be found in the default admx files)
 
 FOLDER: **Windows Server-2025-Security-Baseline-v1.0\GPOs**
-- **{xxxx}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
-- **{xxxx}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (including Excl W2022 Member server settings)
+- **{2D9FD9FD-0B60-45AB-9AC8-169613687D3A}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
+- **{34E3878B-6EA3-4449-8557-F2C64B9CFC39}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (including Excl W2022 Member server settings)
 - (NEEDS TO BE DONE) - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
 
 ## Liability

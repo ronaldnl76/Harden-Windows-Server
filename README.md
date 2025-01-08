@@ -3,7 +3,7 @@ Hardening GPO's Windows Server 2025
 
 There is a new way of Hardening Windows Server 2025. Via OSConfig: [osconfig-how-to-configure-security-baselines](https://learn.microsoft.com/en-us/windows-server/security/osconfig/osconfig-how-to-configure-security-baselines?tabs=configure)
 
-Because we don't want to use OSConfig yet I converted the Security Baseline to GPO's!
+Because not everybody is willing to use the new way via OSConfig to configure those settings yet I converted the Security Baseline to GPO's! 
 
 I used the latest OSConfig from Microsoft (november 2024) - [SecurityBaseline_WindowsServer_2025-2411](https://github.com/microsoft/osconfig/blob/main/security/SecurityBaseline_WindowsServer_2025-2411.csv)
 

@@ -1,6 +1,8 @@
 # Harden-Windows-Server
 Hardening GPO's Windows Server 2025
 
+## NEW POLICIES ARE ON IT's way... there was one wrong setting so I should export the new ones again in few days.
+
 There is a new way of Hardening Windows Server 2025. Via OSConfig: [osconfig-how-to-configure-security-baselines](https://learn.microsoft.com/en-us/windows-server/security/osconfig/osconfig-how-to-configure-security-baselines?tabs=configure)
 
 Because not everybody is willing to use the new way via OSConfig to configure those settings yet I converted the Security Baseline to GPO's! 

@@ -6,4 +6,4 @@
 "HKLM","System\CurrentControlSet\Control\Lsa","NoLMHash","V","1"
 "HKLM","SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest","UseLogonCredential","V","0"
 "Security Template","Privilege Rights","SeInteractiveLogonRight","V","*S-1-5-32-544"
-"Security Template","System Access","LSAAnonymousNameLookup","#N/A","0"
+"Security Template","System Access","LSAAnonymousNameLookup","V","0"

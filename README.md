@@ -34,7 +34,9 @@ RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
 
 
 ## Files inside this Repository:
-- zzz.admx and zzz.adml - Extra policies (which could not be found in the default set
+FOLDER: **Windows Server-2025-Security-Baseline-v1.0\Templates
+- contains the "old" used Windows Server 2022 Security Baseline templates
+- zzz.admx and zzz.adml - Extra policies (which could not be found in the default admx files)
 FOLDER: **Windows Server-2025-Security-Baseline-v1.0\GPOs
 - **{E75ECD67-23CE-45EE-BDD0-09B236F442E8}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (including Excl W2022 Member server settings)
 - Windows Server-2022-Member (Exclusive).csv - contains DELTA settings between 2025 and 2022 security baseline. 

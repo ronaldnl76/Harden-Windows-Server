@@ -47,7 +47,7 @@ FOLDER: **Windows Server-2025-Security-Baseline-v1.0\Templates**
 
 FOLDER: **Windows Server-2025-Security-Baseline-v1.0\GPOs**
 - **{2D9FD9FD-0B60-45AB-9AC8-169613687D3A}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
-- **{34E3878B-6EA3-4449-8557-F2C64B9CFC39}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (including Excl W2022 Member server settings)
+- **{34E3878B-6EA3-4449-8557-F2C64B9CFC39}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (incl. W2022 Member server settings)
 - (NEEDS TO BE DONE) - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
 
 ## Liability

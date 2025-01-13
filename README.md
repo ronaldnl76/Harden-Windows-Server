@@ -33,6 +33,7 @@ RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
 - POWERSHELLSCRIPT - Create powershell script which "backups" tatooing GPO settings before you apply the security baseline
 - CHECK - What happens if you enable and disable an tatooing OSConfig setting (and with GPO)
 - NEW-CHECKSID - In the .Baseline of 2025 there are "strange" sids which still should be solved
+- CHECK - Compare GPO's with [DoD GPO's](https://public.cyber.mil/stigs/gpo/)
 
 ## Work Done
 - Remove Security Baseline Server 2022 from this GPO (so it only contains the settings Baseline Server 2025 settings) :ok_hand:

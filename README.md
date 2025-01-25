@@ -9,6 +9,8 @@ I used the latest OSConfig from Microsoft (november 2024) - [SecurityBaseline_Wi
 
 For updated information see topic Work Done (WHATS NEW) in this README.md
 
+**(LAST UPDATED 25-01-2025)** Member server GPO almost finished and completely checked!
+
 ## How did I do this?
 I used the Microsoft Security Baseline 2022 Member Server from the [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319) as a starter and changed and added all values from the OSConfig .csv file. I have added an .ADMX and .ADML file for the settings that I could nog find. (zzz.ADMX and zzz.ADML)
 If you use the MS Baseline 2022 policies you should also import the templates inside the /zip file! 
@@ -18,7 +20,7 @@ If you use the MS Baseline 2022 policies you should also import the templates in
 
 Secondly I ran OSConfig to enable the settings on a Clean Windows Server 2025 (Set-OSConfigDesiredConfiguration -Scenario SecurityBaseline/WS2025/MemberServer -Default) and compared those settings with the settings in the policy via Microsoft Policy Analyzer v4.0.2004.13001
 
-The results are in the W2025-Memberserver-GPO-Analyzer.csv file. There are still some differences I should take care of.
+The results are in the W2025-Memberserver-GPO-Analyzer.csv file. Also the policy analyzer files are uploaded. There are still some differences I should take care of. (see W2025-Memberserver-GPO-Analyzer (TODO).png)
 
 There is an new .csv file added with all settings from the CSV file categorized into:
 - NEW - these are new settings compared to those of the Security Baseline of Windows Server 2022

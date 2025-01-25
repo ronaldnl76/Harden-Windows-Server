@@ -47,8 +47,8 @@ FOLDER: **Windows Server-2025-Security-Baseline-v1.0\Templates**
 - zzz.admx and zzz.adml - Extra policies (which could not be found in the default admx files)
 
 FOLDER: **Windows Server-2025-Security-Baseline-v1.0\GPOs**
-- **{2D9FD9FD-0B60-45AB-9AC8-169613687D3A}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
-- **{34E3878B-6EA3-4449-8557-F2C64B9CFC39}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (incl. W2022 Member server settings)
+- **{C58A0E84-B17B-449B-A327-DF770732F06E}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
+- **{414E1C75-03FD-4367-B1B8-2DC8170AF06D}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (incl. W2022 Member server settings)
 - (NEEDS TO BE DONE) - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
 
 ## Liability

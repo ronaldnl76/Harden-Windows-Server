@@ -34,11 +34,12 @@ There is an new .csv file added with all settings from the CSV file categorized 
 - There are 2 items that still needs some attention
 AuditBackupAndRestorePrivilege registry key differs from .csv file.
 RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
+- Resolve differences between OSConfig settings vs GPO (W2025-Memberserver-GPO-Analyzer.csv)
 - GPO - Create Security Baseline Server 2025 - Domain Controller
 - GPO - Create Security Baseline Server 2025 - Standalone
 - POWERSHELLSCRIPT - Create powershell script which "backups" tatooing GPO settings before you apply the security baseline
 - CHECK - What happens if you enable and disable an tatooing OSConfig setting (and with GPO)
-- CHECK - Compare GPO's with [DoD GPO's](https://public.cyber.mil/stigs/gpo/)
+- FUTURE: CHECK - Compare GPO's with [DoD GPO's](https://public.cyber.mil/stigs/gpo/)
 
 ## Work Done (WHATS NEW)
 - Remove Security Baseline Server 2022 from this GPO (so it only contains the settings Baseline Server 2025 settings) :ok_hand:

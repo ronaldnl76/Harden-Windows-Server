@@ -1,0 +1,3929 @@
+<PolicyRules>
+  <AuditSubcategory>
+    <GUID>{0cce9210-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Security State Change</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9211-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Security System Extension</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9212-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit System Integrity</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9213-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit IPsec Driver</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9214-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Other System Events</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9215-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Logon</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9216-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Logoff</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9217-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Account Lockout</Name>
+    <Setting>2</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce921b-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Special Logon</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce921c-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Other Logon/Logoff Events</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9224-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit File Share</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9227-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Other Object Access Events</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9228-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Sensitive Privilege Use</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce922b-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Process Creation</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce922f-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Audit Policy Change</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9230-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Authentication Policy Change</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9231-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Authorization Policy Change</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9232-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit MPSSVC Rule-Level Policy Change</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9234-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Other Policy Change Events</Name>
+    <Setting>2</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9235-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit User Account Management</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9237-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Security Group Management</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce923f-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Credential Validation</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9244-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Detailed File Share</Name>
+    <Setting>2</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9245-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Removable Storage</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9248-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit PNP Activity</Name>
+    <Setting>3</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <AuditSubcategory>
+    <GUID>{0cce9249-69ae-11d9-bed3-505054503030}</GUID>
+    <Name>Audit Group Membership</Name>
+    <Setting>1</Setting>
+    <PolicyName>M02 - auditpol /backup</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </AuditSubcategory>
+  <CSE-Machine>
+    <GUID>{2A8FDC61-2347-4C87-92F6-B05EB91A201A}</GUID>
+    <Name>Group Policy Mitigation Options</Name>
+  </CSE-Machine>
+  <CSE-Machine>
+    <GUID>{35378EAC-683F-11D2-A89A-00C04FBBCFA2}</GUID>
+    <Name>Registry Policy</Name>
+  </CSE-Machine>
+  <CSE-Machine>
+    <GUID>{7933F41E-56F8-41D6-A31C-4148A711EE93}</GUID>
+    <Name>Windows Search Group Policy Extension</Name>
+  </CSE-Machine>
+  <CSE-Machine>
+    <GUID>{827D319E-6EAC-11D2-A4EA-00C04F79F83A}</GUID>
+    <Name>Security</Name>
+  </CSE-Machine>
+  <CSE-Machine>
+    <GUID>{D76B9641-3288-4F75-942D-087DE603E3EA}</GUID>
+    <Name>Local Administrator Password Solution (LAPS)</Name>
+  </CSE-Machine>
+  <CSE-Machine>
+    <GUID>{F312195E-3D9D-447A-A3F5-08DFFA24735E}</GUID>
+    <Name>Device Guard</Name>
+  </CSE-Machine>
+  <CSE-Machine>
+    <GUID>{F3CCC681-B74C-4060-9F26-CD84525DCA2A}</GUID>
+    <Name>Audit Policy Configuration</Name>
+  </CSE-Machine>
+  <CSE-Machine>
+    <GUID>{FC491EF1-C4AA-4CE1-B329-414B101DB823}</GUID>
+    <Name>Device Guard</Name>
+  </CSE-Machine>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Cryptography\Wintrust\Config</Key>
+    <Value>EnableCertPaddingCheck</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\CredUI</Key>
+    <Value>EnumerateAdministrators</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\Explorer</Key>
+    <Value>NoAutorun</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\Explorer</Key>
+    <Value>NoDriveTypeAutoRun</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>255</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>255</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\Explorer</Key>
+    <Value>PreXPSP2ShellProtocolBehavior</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>**del.DisableBkGndGroupPolicy</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>DisableAutomaticRestartSignOn</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>LocalAccountTokenFilterPolicy</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>MSAOptional</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\Audit</Key>
+    <Value>ProcessCreationIncludeCmdLine_Enabled</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters</Key>
+    <Value>AllowEncryptionOracle</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters</Key>
+    <Value>PKInitHashAlgorithmConfigurationEnabled</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters</Key>
+    <Value>PKInitSHA1</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters</Key>
+    <Value>PKInitSHA256</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters</Key>
+    <Value>PKInitSHA384</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters</Key>
+    <Value>PKInitSHA512</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\SAM</Key>
+    <Value>SamrChangeUserPasswordApiPolicy</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft Services\AdmPwd</Key>
+    <Value>AdmPwdEnabled</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Biometrics\FacialFeatures</Key>
+    <Value>EnhancedAntiSpoofing</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Cryptography</Key>
+    <Value>ForceKeyProtection</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Cryptography\Configuration\SSL\00010002</Key>
+    <Value>EccCurves</Value>
+    <RegType>REG_MULTI_SZ</RegType>
+    <RegData>NistP256,NistP384</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>NistP256\0NistP384</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Cryptography\Configuration\SSL\00010002</Key>
+    <Value>Functions</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>TLS_AES_128_GCM_SHA256,TLS_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>TLS_AES_128_GCM_SHA256,TLS_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384,TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256,TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\InputPersonalization</Key>
+    <Value>RestrictImplicitInkCollection</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\InputPersonalization</Key>
+    <Value>RestrictImplicitTextCollection</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Internet Explorer\Feeds</Key>
+    <Value>DisableEnclosureDownload</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\MicrosoftAccount</Key>
+    <Value>DisableUserAuth</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Netlogon\Parameters</Key>
+    <Value>BlockNetbiosDiscovery</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\W32time\TimeProviders\NtpClient</Key>
+    <Value>Enabled</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\DNSClient</Key>
+    <Value>**del.EnableNetbios</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\DNSClient</Key>
+    <Value>EnableMulticast</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\DNSClient\DnsPolicyConfig</Key>
+    <Value>
+    </Value>
+    <RegType>REG_NONE</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\MitigationOptions</Key>
+    <Value>MitigationOptions_FontBocking</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>1000000000000</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1000000000000</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Printers</Key>
+    <Value>DisableHTTPPrinting</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Printers</Key>
+    <Value>DisableWebPnPDownload</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Printers\PointAndPrint</Key>
+    <Value>RestrictDriverInstallationToAdministrators</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Rpc</Key>
+    <Value>EnableAuthEpResolution</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Rpc</Key>
+    <Value>RestrictRemoteClients</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>**del.fAllowFullControl</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>**del.fAllowUnsolicitedFullControl</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>**del.fUseMailto</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>**del.MaxTicketExpiry</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>**del.MaxTicketExpiryUnits</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>DeleteTempDirsOnExit</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>DisablePasswordSaving</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>fAllowToGetHelp</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>fAllowUnsolicited</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>fDisableCdm</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>fEncryptRPCTraffic</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>fPromptForPassword</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>MinEncryptionLevel</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>3</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>PerSessionTempDir</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services</Key>
+    <Value>UserAuthentication</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows NT\Terminal Services\RAUnsolicit</Key>
+    <Value>**delvals.</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Ignore-AlwaysPass</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\AppCompat</Key>
+    <Value>DisableInventory</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Bowser</Key>
+    <Value>EnableMailslots</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\CloudContent</Key>
+    <Value>DisableConsumerAccountStateContent</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\CloudContent</Key>
+    <Value>DisableWindowsConsumerFeatures</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\CredentialsDelegation</Key>
+    <Value>AllowProtectedCreds</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\CredUI</Key>
+    <Value>DisablePasswordReveal</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DataCollection</Key>
+    <Value>AllowTelemetry</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DataCollection</Key>
+    <Value>DoNotShowFeedbackNotifications</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeliveryOptimization</Key>
+    <Value>DODownloadMode</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Device Metadata</Key>
+    <Value>PreventDeviceMetadataFromNetwork</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>ConfigureKernelShadowStacksLaunch</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>ConfigureSystemGuardLaunch</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>EnableVirtualizationBasedSecurity</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>HVCIMATRequired</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>HypervisorEnforcedCodeIntegrity</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>LsaCfgFlags</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>MachineIdentityIsolation</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\DeviceGuard</Key>
+    <Value>RequirePlatformSecurityFeatures</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\Application</Key>
+    <Value>MaxSize</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>32768</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>32768</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\Application</Key>
+    <Value>Retention</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\Security</Key>
+    <Value>MaxSize</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>196608</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>196608</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\Security</Key>
+    <Value>Retention</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\Setup</Key>
+    <Value>MaxSize</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>32768</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>32768</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\Setup</Key>
+    <Value>Retention</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\System</Key>
+    <Value>MaxSize</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>32768</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>32768</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\EventLog\System</Key>
+    <Value>Retention</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Explorer</Key>
+    <Value>NoAutoplayfornonVolume</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Explorer</Key>
+    <Value>NoDataExecutionPrevention</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Explorer</Key>
+    <Value>NoHeapTerminationOnCorruption</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}</Key>
+    <Value>NoBackgroundPolicy</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Group Policy\{35378EAC-683F-11D2-A89A-00C04FBBCFA2}</Key>
+    <Value>NoGPOListChanges</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Installer</Key>
+    <Value>AlwaysInstallElevated</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Installer</Key>
+    <Value>EnableUserControl</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Internet Connection Wizard</Key>
+    <Value>ExitOnMSICW</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Kernel DMA Protection</Key>
+    <Value>DeviceEnumerationPolicy</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanServer</Key>
+    <Value>AuditClientDoesNotSupportEncryption</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanServer</Key>
+    <Value>AuditClientDoesNotSupportSigning</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanServer</Key>
+    <Value>AuditInsecureGuestLogon</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanServer</Key>
+    <Value>EnableAuthRateLimiter</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanServer</Key>
+    <Value>MinSmb2Dialect</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>768</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>768</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanWorkstation</Key>
+    <Value>AllowInsecureGuestAuth</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanWorkstation</Key>
+    <Value>AuditServerDoesNotSupportEncryption</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanWorkstation</Key>
+    <Value>AuditServerDoesNotSupportSigning</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanWorkstation</Key>
+    <Value>BlockNTLM</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanWorkstation</Key>
+    <Value>BlockNTLMServerExceptionList</Value>
+    <RegType>REG_MULTI_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>\0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanWorkstation</Key>
+    <Value>MinSmb2Dialect</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>768</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>768</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\LanmanWorkstation</Key>
+    <Value>RequireEncryption</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Network Connections</Key>
+    <Value>NC_AllowNetBridge_NLA</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Network Connections</Key>
+    <Value>NC_ShowSharedAccessUI</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\NetworkProvider</Key>
+    <Value>EnableMailslots</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths</Key>
+    <Value>\\*\NETLOGON</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>RequireMutualAuthentication=1, RequireIntegrity=1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>RequireMutualAuthentication=1,RequireIntegrity=1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\NetworkProvider\HardenedPaths</Key>
+    <Value>\\*\SYSVOL</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>RequireMutualAuthentication=1, RequireIntegrity=1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>RequireMutualAuthentication=1,RequireIntegrity=1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Personalization</Key>
+    <Value>NoLockScreenCamera</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Personalization</Key>
+    <Value>NoLockScreenSlideshow</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging</Key>
+    <Value>**del.EnableScriptBlockInvocationLogging</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging</Key>
+    <Value>EnableScriptBlockLogging</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\PowerShell\Transcription</Key>
+    <Value>**del.EnableInvocationHeader</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\PowerShell\Transcription</Key>
+    <Value>**del.OutputDirectory</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\PowerShell\Transcription</Key>
+    <Value>EnableTranscripting</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>AllowCustomSSPsAPs</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>AllowDomainPINLogon</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>BlockUserFromShowingAccountDetailsOnSignin</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>DisableLockScreenAppNotifications</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>DontDisplayNetworkSelectionUI</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>DontEnumerateConnectedUsers</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>EnableCdp</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>EnableSmartScreen</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>EnumerateLocalUsers</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>RunAsPPL</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\System</Key>
+    <Value>ShellSmartScreenLevel</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>Block</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>Block</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WcmSvc\GroupPolicy</Key>
+    <Value>fMinimizeConnections</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Windows Search</Key>
+    <Value>AllowIndexingEncryptedStoresOrItems</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Client</Key>
+    <Value>AllowBasic</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Client</Key>
+    <Value>AllowDigest</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Client</Key>
+    <Value>AllowUnencryptedTraffic</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Service</Key>
+    <Value>AllowAutoConfig</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Service</Key>
+    <Value>AllowBasic</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Service</Key>
+    <Value>AllowUnencryptedTraffic</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Service</Key>
+    <Value>DisableRunAs</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Service</Key>
+    <Value>IPv4Filter</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>*</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\WinRM\Service</Key>
+    <Value>IPv6Filter</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>*</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall</Key>
+    <Value>PolicyVersion</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>545</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile</Key>
+    <Value>AllowLocalIPsecPolicyMerge</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile</Key>
+    <Value>AllowLocalPolicyMerge</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile</Key>
+    <Value>DefaultInboundAction</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile</Key>
+    <Value>DefaultOutboundAction</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile</Key>
+    <Value>DisableNotifications</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile</Key>
+    <Value>DisableUnicastResponsesToMulticastBroadcast</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile</Key>
+    <Value>EnableFirewall</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging</Key>
+    <Value>LogDroppedPackets</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging</Key>
+    <Value>LogFilePath</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>%SystemRoot%\System32\logfiles\firewall\domainfw.log</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>%SystemRoot%\System32\logfiles\firewall\domainfw.log</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging</Key>
+    <Value>LogFileSize</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>16384</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>16384</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\DomainProfile\Logging</Key>
+    <Value>LogSuccessfulConnections</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile</Key>
+    <Value>AllowLocalIPsecPolicyMerge</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile</Key>
+    <Value>AllowLocalPolicyMerge</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile</Key>
+    <Value>DefaultInboundAction</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile</Key>
+    <Value>DefaultOutboundAction</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile</Key>
+    <Value>DisableNotifications</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile</Key>
+    <Value>DisableUnicastResponsesToMulticastBroadcast</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile</Key>
+    <Value>EnableFirewall</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging</Key>
+    <Value>LogDroppedPackets</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging</Key>
+    <Value>LogFilePath</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>%SystemRoot%\System32\logfiles\firewall\privatefw.log</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>%SystemRoot%\System32\logfiles\firewall\privatefw.log</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging</Key>
+    <Value>LogFileSize</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>16384</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>16384</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PrivateProfile\Logging</Key>
+    <Value>LogSuccessfulConnections</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile</Key>
+    <Value>AllowLocalIPsecPolicyMerge</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile</Key>
+    <Value>AllowLocalPolicyMerge</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile</Key>
+    <Value>DefaultInboundAction</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile</Key>
+    <Value>DefaultOutboundAction</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile</Key>
+    <Value>DisableNotifications</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile</Key>
+    <Value>DisableUnicastResponsesToMulticastBroadcast</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile</Key>
+    <Value>EnableFirewall</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging</Key>
+    <Value>LogDroppedPackets</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging</Key>
+    <Value>LogFilePath</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>%SystemRoot%\System32\logfiles\firewall\publicfw.log</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>%SystemRoot%\System32\logfiles\firewall\publicfw.log</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging</Key>
+    <Value>LogFileSize</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>16384</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>16384</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsFirewall\PublicProfile\Logging</Key>
+    <Value>LogSuccessfulConnections</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\WindowsInkWorkspace</Key>
+    <Value>AllowWindowsInkWorkspace</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Wow6432Node\Microsoft\Cryptography\Wintrust\Config</Key>
+    <Value>EnableCertPaddingCheck</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\DeviceGuard</Key>
+    <Value>RequireMicrosoftSignedBootChain</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\Lsa</Key>
+    <Value>LsaCfgFlags</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\DTLS 1.X\Client</Key>
+    <Value>Enabled</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1.2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\DTLS 1.X\Server</Key>
+    <Value>Enabled</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1.2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.X\Client</Key>
+    <Value>Enabled</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1.2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.X\Server</Key>
+    <Value>Enabled</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1.2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest</Key>
+    <Value>UseLogonCredential</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\Session Manager</Key>
+    <Value>SafeDllSearchMode</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\Session Manager\kernel</Key>
+    <Value>DisableExceptionChainValidation</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp</Key>
+    <Value>PortNumber</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>3389</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3389</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Policies</Key>
+    <Value>NtfsEncryptPagingFile</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Policies\EarlyLaunch</Key>
+    <Value>DriverLoadPolicy</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>3</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Afd\Parameters</Key>
+    <Value>DisableAddressSharing</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Dnscache\Parameters</Key>
+    <Value>EnableNetbios</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Eventlog\Security</Key>
+    <Value>WarningLevel</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>[[[SecurityException]]]</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>90</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</Key>
+    <Value>InvalidAuthenticationDelayTimeInMs</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2000</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2000</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters</Key>
+    <Value>SMB1</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\LanmanWorkstation</Key>
+    <Value>DependOnService</Value>
+    <RegType>REG_MULTI_SZ</RegType>
+    <RegData>Bowser,MRxSmb20,NSI</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>Bowser\0MRxSmb20\0NSI</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\MrxSmb10</Key>
+    <Value>Start</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>4</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>4</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Netbt\Parameters</Key>
+    <Value>NodeType</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Netbt\Parameters</Key>
+    <Value>NoNameReleaseOnDemand</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Tcpip\Parameters</Key>
+    <Value>DisableIPSourceRouting</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Tcpip\Parameters</Key>
+    <Value>EnableICMPRedirect</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters</Key>
+    <Value>DisableIPSourceRouting</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeAssignPrimaryTokenPrivilege=*S-1-5-19,*S-1-5-20</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-19,*S-1-5-20</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeAuditPrivilege=*S-1-5-19,*S-1-5-20,*S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-20,*S-1-5-19,*S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeBackupPrivilege=*S-1-5-32-544,*S-1-5-32-549,*S-1-5-32-551</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-32-551,*S-1-5-32-549</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeChangeNotifyPrivilege=*S-1-5-11,*S-1-5-19,*S-1-5-20,*S-1-5-32-544,*S-1-5-32-551</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-11,*S-1-5-32-551,*S-1-5-19,*S-1-5-20</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeCreateGlobalPrivilege=*S-1-5-19,*S-1-5-20,*S-1-5-32-544,*S-1-5-6</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-20,*S-1-5-19,*S-1-5-6,*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeCreatePagefilePrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeCreatePermanentPrivilege=</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeCreateSymbolicLinkPrivilege=*S-1-5-32-544,*S-1-5-83-0</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-83-0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeCreateTokenPrivilege=</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeDebugPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeDenyBatchLogonRight=*S-1-5-32-546</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-546</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeDenyInteractiveLogonRight=*S-1-5-32-546</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-546</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeDenyNetworkLogonRight=*S-1-5-32-546</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-546</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeDenyRemoteInteractiveLogonRight=*S-1-5-32-546</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-546</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeDenyServiceLogonRight=*S-1-5-32-546</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-546</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeEnableDelegationPrivilege=</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeImpersonatePrivilege=*S-1-5-19,*S-1-5-20,*S-1-5-32-544,*S-1-5-6</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-20,*S-1-5-19,*S-1-5-6,*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeIncreaseBasePriorityPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeIncreaseQuotaPrivilege=*S-1-5-19,*S-1-5-20,*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-19,*S-1-5-20</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeIncreaseWorkingSetPrivilege=*S-1-5-19,*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-19</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeInteractiveLogonRight=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeLoadDriverPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeLockMemoryPrivilege=</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeManageVolumePrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeNetworkLogonRight=*S-1-5-11,*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-11,*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeProfileSingleProcessPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeRelabelPrivilege=</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeRemoteInteractiveLogonRight=*S-1-5-32-544,*S-1-5-32-555</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-32-555</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeRemoteShutdownPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeRestorePrivilege=*S-1-5-32-544,*S-1-5-32-551</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-32-551</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeSecurityPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeShutdownPrivilege=*S-1-5-32-544,*S-1-5-32-551</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-32-551</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeSystemEnvironmentPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeSystemProfilePrivilege=*S-1-5-32-544,*S-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeSystemtimePrivilege=*S-1-5-19,*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-19</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeTakeOwnershipPrivilege=*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeTcbPrivilege=</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeTimeZonePrivilege=*S-1-5-19,*S-1-5-32-544</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>*S-1-5-32-544,*S-1-5-19</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Privilege Rights">
+    <LineItem>SeTrustedCredManAccessPrivilege=</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows NT\CurrentVersion\Setup\RecoveryConsole</Key>
+    <Value>SetCommand</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows NT\CurrentVersion\Winlogon</Key>
+    <Value>AllocateDASD</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows NT\CurrentVersion\Winlogon</Key>
+    <Value>CachedLogonsCount</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>4</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>4</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows NT\CurrentVersion\Winlogon</Key>
+    <Value>PasswordExpiryWarning</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>14</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>14</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows NT\CurrentVersion\Winlogon</Key>
+    <Value>ScRemoveOption</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>ConsentPromptBehaviorAdmin</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>ConsentPromptBehaviorUser</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>DisableCAD</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>DontDisplayLastUserName</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>EnableInstallerDetection</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>EnableLUA</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>EnableSecureUIAPaths</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>EnableUIADesktopToggle</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>EnableVirtualization</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>FilterAdministratorToken</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>InactivityTimeoutSecs</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>900</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>900</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>LegalNoticeCaption</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>Welcome to Rijerkerk-ICT B.V.</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>LegalNoticeText</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>Welcome to Rijerkerk-ICT B.V. - Authorized use only</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>PromptOnSecureDesktop</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System</Key>
+    <Value>ShutdownWithoutLogon</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Microsoft\Windows\CurrentVersion\Policies\System\Kerberos\Parameters</Key>
+    <Value>SupportedEncryptionTypes</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>2147483640</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2147483640</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers</Key>
+    <Value>AuthenticodeEnabled</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>CrashOnAuditFail</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>EveryoneIncludesAnonymous</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>ForceGuest</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>FullPrivilegeAuditing</Value>
+    <RegType>REG_BINARY</RegType>
+    <RegData>30</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>LimitBlankPasswordUse</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>LmCompatibilityLevel</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>5</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>5</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>NoLMHash</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>RestrictAnonymous</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>RestrictAnonymousSAM</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>RestrictRemoteSAM</Value>
+    <RegType>REG_SZ</RegType>
+    <RegData>O:BAG:BAD:(A;;RC;;;BA)</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>O:BAG:BAD:(A;;RC;;;BA)</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>SCENoApplyLegacyAuditPolicy</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa</Key>
+    <Value>UseMachineId</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa\MSV1_0</Key>
+    <Value>allownullsessionfallback</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa\MSV1_0</Key>
+    <Value>NTLMMinClientSec</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>537395200</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>537395200</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa\MSV1_0</Key>
+    <Value>NTLMMinServerSec</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>537395200</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>537395200</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Lsa\pku2u</Key>
+    <Value>AllowOnlineID</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Print\Providers\LanMan Print Services\Servers</Key>
+    <Value>AddPrinterDrivers</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedExactPaths</Key>
+    <Value>Machine</Value>
+    <RegType>REG_MULTI_SZ</RegType>
+    <RegData>[[[SecurityException]]]</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>System\CurrentControlSet\Control\ProductOptions,System\CurrentControlSet\Control\Server Applications,Software\Microsoft\Windows NT\CurrentVersion</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedPaths</Key>
+    <Value>Machine</Value>
+    <RegType>REG_MULTI_SZ</RegType>
+    <RegData>[[[SecurityException]]]</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>Software\Microsoft\Windows NT\CurrentVersion\Print,Software\Microsoft\Windows NT\CurrentVersion\Windows,System\CurrentControlSet\Control\Print\Printers,System\CurrentControlSet\Services\Eventlog,Software\Microsoft\OLAP Server,System\CurrentControlSet\Control\ContentIndex,System\CurrentControlSet\Control\Terminal Server,System\CurrentControlSet\Control\Terminal Server\UserConfig,System\CurrentControlSet\Control\Terminal Server\DefaultUserConfiguration,Software\Microsoft\Windows NT\CurrentVersion\Perflib,System\CurrentControlSet\Services\SysmonLog</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Session Manager</Key>
+    <Value>ProtectionMode</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Session Manager\Kernel</Key>
+    <Value>ObCaseInsensitive</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Control\Session Manager\Memory Management</Key>
+    <Value>ClearPageFileAtShutdown</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanManServer\Parameters</Key>
+    <Value>AutoDisconnect</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>15</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>15</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanManServer\Parameters</Key>
+    <Value>EnableForcedLogOff</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanManServer\Parameters</Key>
+    <Value>EnableSecuritySignature</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanManServer\Parameters</Key>
+    <Value>NullSessionShares</Value>
+    <RegType>REG_MULTI_SZ</RegType>
+    <RegData>
+    </RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>
+    </BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>True</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanManServer\Parameters</Key>
+    <Value>requiresecuritysignature</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanManServer\Parameters</Key>
+    <Value>RestrictNullSessAccess</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanManServer\Parameters</Key>
+    <Value>SmbServerNameHardeningLevel</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanmanWorkstation\Parameters</Key>
+    <Value>EnablePlainTextPassword</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanmanWorkstation\Parameters</Key>
+    <Value>EnableSecuritySignature</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LanmanWorkstation\Parameters</Key>
+    <Value>RequireSecuritySignature</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\LDAP</Key>
+    <Value>LDAPClientIntegrity</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\Netlogon\Parameters</Key>
+    <Value>DisablePasswordChange</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>0</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\Netlogon\Parameters</Key>
+    <Value>MaximumPasswordAge</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>30</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>30</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\Netlogon\Parameters</Key>
+    <Value>requiresignorseal</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\Netlogon\Parameters</Key>
+    <Value>requirestrongkey</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\Netlogon\Parameters</Key>
+    <Value>sealsecurechannel</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <ComputerConfig>
+    <Key>System\CurrentControlSet\Services\Netlogon\Parameters</Key>
+    <Value>signsecurechannel</Value>
+    <RegType>REG_DWORD</RegType>
+    <RegData>1</RegData>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </ComputerConfig>
+  <SecurityTemplate Section="Service General Setting">
+    <LineItem>"AppIDSvc",2,""</LineItem>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>2,""</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="Service General Setting">
+    <LineItem>"WSearch",4,""</LineItem>
+    <PolicyName>M02 - HKEY_LOCAL_MACHINE</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>4,""</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>ClearTextPassword=0</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>EnableGuestAccount=0</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>ForceLogoffWhenHourExpire=1</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>LockoutBadCount=3</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>3</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>LockoutDuration=15</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>15</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>LSAAnonymousNameLookup=0</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>0</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>MaximumPasswordAge=42</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>42</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>MinimumPasswordAge=1</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>MinimumPasswordLength=0</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>14</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>NewAdministratorName="Administrator"</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>%adminname%</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>NewGuestName="Guest"</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>False</EvalResult>
+    <BaselineValue>%guestname%</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>PasswordComplexity=1</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>1</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>PasswordHistorySize=24</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>24</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+  <SecurityTemplate Section="System Access">
+    <LineItem>ResetLockoutCount=15</LineItem>
+    <PolicyName>M02 - secedit /export</PolicyName>
+    <EvalResult>True</EvalResult>
+    <BaselineValue>15</BaselineValue>
+    <EvalOperator>Equal</EvalOperator>
+    <ValueNotFound>False</ValueNotFound>
+    <InvalidComparison>False</InvalidComparison>
+  </SecurityTemplate>
+</PolicyRules>

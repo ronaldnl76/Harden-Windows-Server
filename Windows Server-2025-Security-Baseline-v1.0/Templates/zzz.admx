@@ -35,7 +35,7 @@
 			<parentCategory ref="cat_zzz" />
 			<supportedOn ref="windows:SUPPORTED_WindowsVista" />
 			<elements>
-				<decimal id="PortNumber" storeAsText="true" valueName="PortNumber"/>
+				<decimal id="PortNumber" storeAsText="false" valueName="PortNumber"/>
 			</elements>
 		</policy>
 		<policy name="OverrideMinimumEnabledDTLSVersionClient" 
@@ -105,10 +105,10 @@
 			<parentCategory ref="cat_zzz" />
             <supportedOn ref="windows:SUPPORTED_Windows_10_0" />	
             <enabledValue>
-                <decimal value="1" />
+				<string>1</string>
             </enabledValue>
             <disabledValue>
-                <decimal value="0" />
+				<string>0</string>
             </disabledValue>
 		</policy>	
 		
@@ -122,10 +122,10 @@
 			<parentCategory ref="cat_zzz" />
             <supportedOn ref="windows:SUPPORTED_Windows_10_0" />	
             <enabledValue>
-                <decimal value="1" />
+				<string>1</string>
             </enabledValue>
             <disabledValue>
-                <decimal value="0" />
+				<string>0</string>
             </disabledValue>
 		</policy>	
 		
@@ -186,7 +186,7 @@
 			<parentCategory ref="cat_zzz" />
 			<supportedOn ref="windows:SUPPORTED_WindowsVista" />
 			<elements>
-				<decimal id="InvalidAuthenticationDelayTimeInMs" storeAsText="true" valueName="InvalidAuthenticationDelayTimeInMs"/>
+				<decimal id="InvalidAuthenticationDelayTimeInMs" storeAsText="false" valueName="InvalidAuthenticationDelayTimeInMs"/>
 			</elements>
 		</policy>
 		
@@ -245,16 +245,22 @@
 	</policies>
 </policyDefinitions>
 
-
 <!--
+;Version 1.01 - 01-25-2025
 ;========= Start of zzz Registry Values =========
-HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters
-HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\DTLS 1.X\Client
-HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\DTLS 1.X\Server
-HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.X\Client
-HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.X\Server
-HKLM:\SYSTEM\CurrentControlSet\Services\Afd\Parameters
-HKLM:\SOFTWARE\Microsoft\Cryptography\Wintrust\Config
-HKLM:\SOFTWARE\Wow6432Node\Microsoft\Cryptography\Wintrust\Config
+HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp - PortNumber
+HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\DTLS 1.X\Client - Version
+HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\DTLS 1.X\Server - Version
+HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.X\Client - Version
+HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.X\Server - Version
+HKLM:\SOFTWARE\Microsoft\Cryptography\Wintrust\Config - EnableCertPaddingCheck
+HKLM:\SOFTWARE\Wow6432Node\Microsoft\Cryptography\Wintrust\Config - EnableCertPaddingCheck
+HKLM:\SYSTEM\CurrentControlSet\Services\Afd\Parameters - DisableAddressSharing 
+HKLM:\SYSTEM\CurrentControlSet\Services\LanmanWorkstation - DisableSMBv1ClientList
+HKLM:\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters - EnableNetbios
+HKLM:\SYSTEM\CurrentControlSet\Services\LanManServer\Parameters - InvalidAuthenticationDelayTimeInMs
+HKLM:\SYSTEM\CurrentControlSet\Control\DeviceGuard - RequireMicrosoftSignedBootChain
+HKLM:\SYSTEM\CurrentControlSet\Control\Lsa - LsaCfgFlags
+HKLM:\SOFTWARE\Policies\Microsoft\Cryptography - ForceKeyProtection
 ;========= End of zzz Registry Values =========
 -->

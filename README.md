@@ -16,6 +16,10 @@ If you use the MS Baseline 2022 policies you should also import the templates in
 - MSS-legacy.admx (and .adml)
 - SecGuide.admx (and .adml)
 
+Secondly I ran OSConfig to enable the settings on a Clean Windows Server 2025 (Set-OSConfigDesiredConfiguration -Scenario SecurityBaseline/WS2025/MemberServer -Default) and compared those settings with the settings in the policy via Microsoft Policy Analyzer v4.0.2004.13001
+
+The results are in the W2025-Memberserver-GPO-Analyzer.csv file. There are still some differences I should take care of.
+
 There is an new .csv file added with all settings from the CSV file categorized into:
 - NEW - these are new settings compared to those of the Security Baseline of Windows Server 2022
 - NEW-CHECKSID - In the .Baseline of 2025 there are "strange" sids which still should be solved
@@ -38,17 +42,13 @@ RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
 
 ## Work Done (WHATS NEW)
 - Remove Security Baseline Server 2022 from this GPO (so it only contains the settings Baseline Server 2025 settings) :ok_hand:
-- NEW-CHECKSID - In the .Baseline of 2025 there are "strange" sids which still should be solve :
-
-S-1-5-83-0	(NT VIRTUAL MACHINE\Virtual Machines)
-
-S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415  (IIS APPPOOL\DefaultAppPool)
-
-S-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420  (NT SERVICE\WdiServiceHost)
+- NEW-CHECKSID - In the .Baseline of 2025 there are "strange" sids which still should be solve : **S-1-5-83-0**	(NT VIRTUAL MACHINE\Virtual Machines) **S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415**  (IIS APPPOOL\DefaultAppPool) **S-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420**  (NT SERVICE\WdiServiceHost) :ok_hand:
+- I run
 
 ## Files inside this Repository:
 FOLDER: **ROOT**
 - Windows Server-2022-Member (Exclusive).csv - contains DELTA settings between 2025 and 2022 security baseline. 
+- W2025-Memberserver-GPO-Analyzer.csv - contains DELTA settings between OSConfig and Grouppolicy
 
 FOLDER: **Windows Server-2025-Security-Baseline-v1.0\Templates**
 - contains the "old" used Windows Server 2022 Security Baseline templates

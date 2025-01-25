@@ -7,6 +7,8 @@ Because not everybody is willing to use the new way via OSConfig to configure th
 
 I used the latest OSConfig from Microsoft (november 2024) - [SecurityBaseline_WindowsServer_2025-2411](https://github.com/microsoft/osconfig/blob/main/security/SecurityBaseline_WindowsServer_2025-2411.csv)
 
+For updated information see topic Work Done (WHATS NEW) in this README.md
+
 ## How did I do this?
 I used the Microsoft Security Baseline 2022 Member Server from the [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319) as a starter and changed and added all values from the OSConfig .csv file. I have added an .ADMX and .ADML file for the settings that I could nog find. (zzz.ADMX and zzz.ADML)
 If you use the MS Baseline 2022 policies you should also import the templates inside the /zip file! 

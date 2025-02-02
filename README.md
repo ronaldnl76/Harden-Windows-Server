@@ -9,7 +9,7 @@ I used the latest OSConfig from Microsoft (november 2024) - [SecurityBaseline_Wi
 
 For updated information see topic Work Done (WHATS NEW) in this README.md
 
-**(LAST UPDATED 25-01-2025)** Member server GPO almost finished and completely checked!
+**(LAST UPDATED 02-02-2025)** Member server GPO finished. Domain Controller GPO Finished
 
 ## How did I do this?
 I used the Microsoft Security Baseline 2022 Member Server from the [Microsoft Security Compliance Toolkit 1.0](https://www.microsoft.com/en-us/download/details.aspx?id=55319) as a starter and changed and added all values from the OSConfig .csv file. I have added an .ADMX and .ADML file for the settings that I could nog find. (zzz.ADMX and zzz.ADML)
@@ -57,9 +57,9 @@ FOLDER: **Windows Server-2025-Security-Baseline-v1.0\Templates**
 - zzz.admx and zzz.adml - Extra policies (which could not be found in the default admx files)
 
 FOLDER: **Windows Server-2025-Security-Baseline-v1.0\GPOs**
-- **{F2B95494-E15E-46EE-8C6D-4FDB9B55919C}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
-- **{5C89DCE6-720F-4E8F-A9A6-AB3A6EB86DB1}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (incl. W2022 Member server settings)
-- (NEEDS TO BE DONE) - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
+- **{51C37710-B0CF-4123-9EF3-C1C7961DB48D}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server
+- **{52BFA0C6-ED5D-41B7-98EE-3D81BEB8C74C}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Member Server (incl. W2022 Member server settings)
+- **{811FCBA6-B094-4BD3-A01B-2DC937519FFB}** - Backup of GPO - Microsoft Security Baseline Windows Server 2025 - Domain Controller
 
 ## Liability
 

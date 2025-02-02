@@ -37,7 +37,6 @@ There is an new .csv file added with all settings from the CSV file categorized 
 AuditBackupAndRestorePrivilege registry key differs from .csv file.
 RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
 - Resolve differences between OSConfig settings vs GPO (W2025-Memberserver-GPO-Analyzer.csv)
-- GPO - Create Security Baseline Server 2025 - Domain Controller
 - GPO - Create Security Baseline Server 2025 - Standalone
 - POWERSHELLSCRIPT - Create powershell script which "backups" tatooing GPO settings before you apply the security baseline
 - CHECK - What happens if you enable and disable an tatooing OSConfig setting (and with GPO)
@@ -46,6 +45,7 @@ RestrictClientsAllowedToMakeRemoteCallsToSAM - used the settings from 2022 MSFT
 ## Work Done (WHATS NEW)
 - Remove Security Baseline Server 2022 from this GPO (so it only contains the settings Baseline Server 2025 settings) :ok_hand:
 - NEW-CHECKSID - In the .Baseline of 2025 there are "strange" sids has been resolved : **S-1-5-83-0**	(NT VIRTUAL MACHINE\Virtual Machines) **S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415**  (IIS APPPOOL\DefaultAppPool) **S-1-5-80-3139157870-2983391045-3678747466-658725712-1809340420**  (NT SERVICE\WdiServiceHost) :ok_hand:
+- GPO - Create Security Baseline Server 2025 - Domain Controller :ok_hand:
 
 ## Files inside this Repository:
 FOLDER: **ROOT**
